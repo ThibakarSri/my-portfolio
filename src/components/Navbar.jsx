@@ -115,7 +115,7 @@ const Navbar = () => {
               { id: "hero", label: "Home" },
               { id: "about", label: "About" },
               { id: "technologies", label: "Technologies" },
-              { id: "experience", label: "Experience" },
+              { id: "experience", label: "Education" },
               { id: "projects", label: "Projects" },
               { id: "contact", label: "Contact" },
             ].map((item) => (

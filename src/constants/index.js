@@ -1,12 +1,17 @@
 import project1 from "../assets/projects/project-1.jpg"
 import project2 from "../assets/projects/project-2.jpg"
-import project3 from "../assets/projects/FitGlow.jpeg"
+import project3 from "../assets/projects/project-3.jpg"
 import project4 from "../assets/projects/project-4.jpg"
 import project5 from "../assets/projects/project-5.jpg"
 
 export const HERO_CONTENT = `I am a passionate and dedicated software engineering undergraduate, who possess a strong foundation in software development and web design. My academic background has equipped me with solid skills in coding, problem-solving, and analytical thinking.`
 
 export const ABOUT_TEXT = `A passionate and dedicated software engineering undergraduate, who possess a strong foundation in software development and web design. My academic background has equipped me with solid skills in coding, problem-solving, and analytical thinking. I am eager to apply my knowledge to real-world projects, continuously expand my expertise in emerging technologies, and contribute to the development of innovative and effective solutions.`
+
+// CV URL - Google Drive link
+export const CV_URL = "https://drive.google.com/file/d/1RC9p3O3WUPFE75mPRofknnd8syqy5nAU/view?usp=sharing"
+// Direct download link (using export=download parameter)
+export const CV_DOWNLOAD_URL = "https://drive.google.com/uc?export=download&id=1RC9p3O3WUPFE75mPRofknnd8syqy5nAU"
 
 export const EXPERIENCES = [
   {
@@ -46,23 +51,23 @@ export const PROJECTS = [
     description:
       "A personalized diabetes management application for individuals with diabetes, those without diabetes, and those unsure of their status. Features include real-time glucose tracking, symptom assessment, personalized health recommendations, report creation, exercise suggestions, and analytics visualization.",
     technologies: ["Flutter", "Firebase", "Mobile Development"],
-    github: "https://github.com/Sanjana0823/MyBete-App",
+    github: "https://github.com/ThibakarSri",
   },
   {
     title: "Ticket Booking System",
     image: project2,
     description:
       "Implemented multithreading for concurrent ticket processing and synchronized vendor-customer interactions. Built RESTful APIs for configuration, process control, and summary display.",
-    technologies: ["Spring Boot", "Angular", "Bootstrap", "Java OOP", "JSON", "REST API"],
-    github: "https://github.com/ThibakarSri/OOP_CW_TicketBookingSystem",
+    technologies: ["Spring Boot", "Angular", "Bootstrap", "Java", "JSON", "REST API"],
+    github: "https://github.com/ThibakarSri",
   },
   {
-    title: "FitGlow - Health and Well-Being Website",
+    title: "Health and Well-Being Website",
     image: project3,
     description:
       "Collaboratively developed a website promoting the Sustainable Development Goal of good health and well-being. Designed and implemented a user profile section with form validation, developed a team page, and created a content page with an integrated page editor.",
     technologies: ["HTML", "CSS", "JavaScript", "Web Development"],
-    github: "https://github.com/ThibakarSri/FitGlow",
+    github: "https://github.com/ThibakarSri",
   },
   {
     title: "Student Information Management System",
@@ -70,7 +75,7 @@ export const PROJECTS = [
     description:
       "Created a robust system to manage student information, featuring seat management, registration, deletion, and marks entry functionalities. Implemented array structures and applied object-oriented principles.",
     technologies: ["Java", "File Storage", "OOP"],
-    github: "https://github.com/ThibakarSri/StudentManangementSystem.java",
+    github: "https://github.com/ThibakarSri",
   },
   {
     title: "Personal Financial Tracker",
@@ -97,6 +102,8 @@ export const TECH_SKILLS = [
   { name: "HTML", icon: "SiHtml5", color: "text-orange-500" },
   { name: "CSS", icon: "SiCss3", color: "text-blue-400" },
   { name: "React", icon: "SiReact", color: "text-cyan-400" },
+  { name: "Angular", icon: "SiAngular", color: "text-red-500" },
+  { name: "Spring Boot", icon: "SiSpring", color: "text-green-500" },
   { name: "Flutter", icon: "SiFlutter", color: "text-blue-400" },
   { name: "MySQL", icon: "SiMysql", color: "text-blue-600" },
   { name: "Git", icon: "SiGit", color: "text-orange-600" },
@@ -130,4 +137,3 @@ export const CERTIFICATIONS = [
       "Spring Boot 2.0 Essential Training, Programming Foundations: Object-Oriented Design, Java Object-Oriented Programming, Angular Essential Training, Figma Essential Training: The Basics",
   },
 ]
-

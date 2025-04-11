@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 import { useTheme } from "./ThemeProvider"
+import { CV_URL } from "../constants"
 
 const Hero = () => {
   const { isDarkMode } = useTheme()
@@ -20,6 +21,9 @@ const Hero = () => {
     "Hola, I'm",
     "Welkom, I'm",
     "Bonjour, I'm",
+    // "வரவேற்கிறேன், I'm",
+    // "你好, I'm",
+    // "こんにちは, I'm",
   ]
 
   // Different roles to type
@@ -148,7 +152,9 @@ const Hero = () => {
             </motion.a>
 
             <motion.a
-              href="#"
+              href={CV_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className={`px-6 py-3 ${
@@ -156,13 +162,8 @@ const Hero = () => {
                   ? "border border-cyan-500 text-cyan-400 hover:bg-cyan-500 hover:text-white"
                   : "border border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white"
               } font-medium rounded-full transition-all duration-300`}
-              onClick={(e) => {
-                e.preventDefault()
-                // You could add a download resume functionality here
-                alert("Resume download functionality would go here")
-              }}
             >
-              Get Resume
+              View Resume
             </motion.a>
           </motion.div>
         </div>
@@ -172,4 +173,3 @@ const Hero = () => {
 }
 
 export default Hero
-

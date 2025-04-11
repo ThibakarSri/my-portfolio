@@ -98,7 +98,7 @@ const Experience = () => {
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
       >
-        Education & Experience
+        Education
       </motion.h1>
       <div className="max-w-5xl mx-auto">
         {EXPERIENCES.map((experience, index) => (
