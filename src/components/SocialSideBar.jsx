@@ -20,7 +20,7 @@ const SocialSidebar = () => {
       >
         <div className="flex flex-col space-y-6">
           <a
-            href="https://linkedin.com"
+            href="www.linkedin.com/in/thibakar-sri"
             target="_blank"
             rel="noopener noreferrer"
             className={`${
@@ -31,7 +31,7 @@ const SocialSidebar = () => {
             <FaLinkedin size={22} />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/ThibakarSri"
             target="_blank"
             rel="noopener noreferrer"
             className={`${
@@ -42,7 +42,7 @@ const SocialSidebar = () => {
             <FaGithub size={22} />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/s.thiba_3/"
             target="_blank"
             rel="noopener noreferrer"
             className={`${
@@ -51,17 +51,6 @@ const SocialSidebar = () => {
             aria-label="Instagram"
           >
             <FaInstagram size={22} />
-          </a>
-          <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`${
-              isDarkMode ? "text-neutral-400 hover:text-cyan-400" : "text-neutral-600 hover:text-cyan-600"
-            } transition-colors`}
-            aria-label="Twitter"
-          >
-            <FaSquareXTwitter size={22} />
           </a>
         </div>
         <div className={`w-px h-24 mt-6 ${isDarkMode ? "bg-neutral-700" : "bg-neutral-400"}`}></div>

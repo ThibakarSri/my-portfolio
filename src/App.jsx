@@ -9,7 +9,7 @@ import Contact from "./components/Contact"
 import Experience from "./components/Experience"
 import Certifications from "./components/Certifications"
 import BackToTop from "./components/BackToTop"
-import SocialSidebar from "./components/SocialSidebar"
+import SocialSidebar from "./components/SocialSideBar"
 import { ThemeProvider } from "./components/ThemeProvider"
 
 const App = () => {
@@ -72,11 +72,51 @@ const AppContent = () => {
         <Contact />
       </div>
 
-      <footer className={`${isDarkMode ? "bg-neutral-900/50" : "bg-neutral-100"} py-6 mt-8`}>
-        <div className="container mx-auto px-8 text-center">
-          <p className={isDarkMode ? "text-neutral-400" : "text-neutral-600"}>
-            © {new Date().getFullYear()} Thibakar Sri. All rights reserved.
-          </p>
+      <footer className={`${isDarkMode ? "bg-neutral-900/50" : "bg-neutral-100"} py-8 mt-8`}>
+        <div className="container mx-auto px-8">
+          <div className="flex flex-col items-center justify-center mb-6">
+            <p className={`${isDarkMode ? "text-neutral-400" : "text-neutral-600"} mb-4 text-sm font-medium`}>
+              BUILT WITH
+            </p>
+            <div className="flex items-center justify-center gap-12">
+              <a
+                href="https://react.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-transform hover:scale-110"
+                aria-label="React"
+              >
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                  alt="React"
+                  className="h-8 w-8"
+                />
+              </a>
+              <a
+                href="https://vitejs.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-transform hover:scale-110"
+                aria-label="Vite"
+              >
+                <img src="https://vitejs.dev/logo-with-shadow.png" alt="Vite" className="h-8 w-8" />
+              </a>
+              <a
+                href="https://tailwindcss.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-transform hover:scale-110"
+                aria-label="Tailwind CSS"
+              >
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                  alt="Tailwind CSS"
+                  className="h-8 w-8"
+                />
+              </a>
+            </div>
+          </div>
+          
         </div>
       </footer>
 
@@ -86,4 +126,3 @@ const AppContent = () => {
 }
 
 export default App
-

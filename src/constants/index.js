@@ -46,7 +46,7 @@ export const PROJECTS = [
     description:
       "A personalized diabetes management application for individuals with diabetes, those without diabetes, and those unsure of their status. Features include real-time glucose tracking, symptom assessment, personalized health recommendations, report creation, exercise suggestions, and analytics visualization.",
     technologies: ["Flutter", "Firebase", "Mobile Development"],
-    github: "https://github.com/ThibakarSri",
+    github: "https://github.com/Sanjana0823/MyBete-App",
   },
   {
     title: "Ticket Booking System",
@@ -54,7 +54,7 @@ export const PROJECTS = [
     description:
       "Implemented multithreading for concurrent ticket processing and synchronized vendor-customer interactions. Built RESTful APIs for configuration, process control, and summary display.",
     technologies: ["Spring Boot", "Angular", "Bootstrap", "Java OOP", "JSON", "REST API"],
-    github: "https://github.com/ThibakarSri",
+    github: "https://github.com/ThibakarSri/OOP_CW_TicketBookingSystem",
   },
   {
     title: "FitGlow - Health and Well-Being Website",
@@ -62,7 +62,7 @@ export const PROJECTS = [
     description:
       "Collaboratively developed a website promoting the Sustainable Development Goal of good health and well-being. Designed and implemented a user profile section with form validation, developed a team page, and created a content page with an integrated page editor.",
     technologies: ["HTML", "CSS", "JavaScript", "Web Development"],
-    github: "https://github.com/ThibakarSri",
+    github: "https://github.com/ThibakarSri/FitGlow",
   },
   {
     title: "Student Information Management System",
@@ -70,7 +70,7 @@ export const PROJECTS = [
     description:
       "Created a robust system to manage student information, featuring seat management, registration, deletion, and marks entry functionalities. Implemented array structures and applied object-oriented principles.",
     technologies: ["Java", "File Storage", "OOP"],
-    github: "https://github.com/ThibakarSri",
+    github: "https://github.com/ThibakarSri/StudentManangementSystem.java",
   },
   {
     title: "Personal Financial Tracker",
