@@ -72,7 +72,7 @@ const AppContent = () => {
         <Contact />
       </div>
 
-      <footer className={`${isDarkMode ? "bg-neutral-900/50" : "bg-neutral-100"} py-8 mt-8`}>
+      <footer className={`py-8 mt-8`}>
         <div className="container mx-auto px-8">
           <div className="flex flex-col items-center justify-center mb-6">
             <p className={`${isDarkMode ? "text-neutral-400" : "text-neutral-600"} mb-4 text-sm font-medium`}>
