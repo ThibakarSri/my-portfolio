@@ -20,7 +20,7 @@ const SocialSidebar = () => {
       >
         <div className="flex flex-col space-y-6">
           <a
-            href="www.linkedin.com/in/thibakar-sri"
+            href="https://linkedin.com/in/thibakar-sri"
             target="_blank"
             rel="noopener noreferrer"
             className={`${
