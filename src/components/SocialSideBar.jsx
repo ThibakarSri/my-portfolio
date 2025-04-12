@@ -65,6 +65,7 @@ const SocialSidebar = () => {
       >
         <a
           href={`mailto:${CONTACT.email}`}
+          target="_blank"
           className={`${
             isDarkMode ? "text-neutral-400 hover:text-cyan-400" : "text-neutral-600 hover:text-cyan-600"
           } transition-colors vertical-text`}
