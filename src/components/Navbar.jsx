@@ -1,39 +1,4 @@
-// import logo from "../assets/kevinRushLogo.png"
-
-// import {FaLinkedin} from "react-icons/fa";
-// import {FaGithub} from "react-icons/fa";
-// import {FaSquareXTwitter} from "react-icons/fa6";
-// import {FaInstagram} from "react-icons/fa";
-// import {motion} from "framer-motion";
-
-// const Navbar = () => {
-//   return (
-//     <nav className="mb-20 flex items-center justify-between py-6">
-//         <div className="flex flex-shrink-0 items-center">
-            
-//             <motion.span 
-            
-//             initial="initial"
-//             animate="animate"
-//             style={{ fontWeight: 'bold' , fontSize: 50 }}
-//             >
-//               T
-//             </motion.span>
-            
-//         </div>
-//         <div className="m-8 flex intems-center justify-center gap-4 text-2xl">
-//             <FaLinkedin/>
-//             <FaGithub/>
-//             <FaInstagram/>
-//             <FaSquareXTwitter/> 
-//         </div>
-//     </nav>
-//   )
-// }
-
-// export default Navbar
-
- "use client"
+"use client"
 
 import { useState, useEffect } from "react"
 import { HiMenuAlt3, HiX } from "react-icons/hi"
@@ -58,7 +23,7 @@ const Navbar = () => {
       }
 
       // For active section highlighting
-      const sections = ["contact", "projects", "experience", "technologies", "about", "hero"]
+      const sections = ["contact", "certifications", "projects", "experience", "technologies", "about", "hero"]
 
       for (const section of sections) {
         const element = document.getElementById(section)
@@ -115,8 +80,9 @@ const Navbar = () => {
               { id: "hero", label: "Home" },
               { id: "about", label: "About" },
               { id: "technologies", label: "Technologies" },
-              { id: "experience", label: "Education" },
+              { id: "experience", label: "Experience" },
               { id: "projects", label: "Projects" },
+              { id: "certifications", label: "Certifications" },
               { id: "contact", label: "Contact" },
             ].map((item) => (
               <li key={item.id}>
@@ -184,6 +150,7 @@ const Navbar = () => {
                 { id: "technologies", label: "Technologies" },
                 { id: "experience", label: "Experience" },
                 { id: "projects", label: "Projects" },
+                { id: "certifications", label: "Certifications" },
                 { id: "contact", label: "Contact" },
               ].map((item) => (
                 <li key={item.id}>
@@ -212,4 +179,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
