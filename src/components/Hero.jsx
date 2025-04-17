@@ -118,7 +118,7 @@ const Hero = () => {
             </span>
           </motion.div>
 
-          <motion.p
+          {/* <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.9 }}
@@ -126,7 +126,7 @@ const Hero = () => {
           >
             I'm a passionate developer focused on creating elegant solutions to complex problems. I specialize in
             building responsive web applications with modern technologies.
-          </motion.p>
+          </motion.p> */}
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
