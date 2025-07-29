@@ -150,9 +150,9 @@ export const HERO_CONTENT = `I am a passionate and dedicated software engineerin
 export const ABOUT_TEXT = `A passionate and dedicated software engineering undergraduate, who possess a strong foundation in software development and web design. My academic background has equipped me with solid skills in coding, problem-solving, and analytical thinking. I am eager to apply my knowledge to real-world projects, continuously expand my expertise in emerging technologies, and contribute to the development of innovative and effective solutions.`
 
 // CV URL - Google Drive link
-export const CV_URL = "https://drive.google.com/file/d/1IDYzV_2IM1-1rI2V0Ul9s4PuuBIjMnrb/view?usp=drive_link"
+export const CV_URL = "https://drive.google.com/file/d/1t8nFhT1RBLIwghrAXk52yV8R8pGgo9oO/view?usp=sharing"
 // Direct download link (using export=download parameter)
-export const CV_DOWNLOAD_URL = "https://drive.google.com/file/d/1IDYzV_2IM1-1rI2V0Ul9s4PuuBIjMnrb/view?usp=drive_link"
+export const CV_DOWNLOAD_URL = "https://drive.google.com/file/d/1t8nFhT1RBLIwghrAXk52yV8R8pGgo9oO/view?usp=sharing"
 
 export const EXPERIENCES = [
   {
